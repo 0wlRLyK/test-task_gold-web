@@ -4,8 +4,9 @@ from modeltranslation.admin import TranslationAdmin
 
 @admin.register(Menu)
 class MenuAdmin(TranslationAdmin):
-    list_display = ["name"]
+    list_display = ["id", "name"]
 
 @admin.register(MenuItem)
 class MenuItemAdmin(TranslationAdmin):
-    list_display = ["title", "url", "menu"]
+    list_display = ["id", "title", "url", "parent", "menu"]
+    ordering = ("id",)
