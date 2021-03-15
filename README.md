@@ -1,5 +1,7 @@
 # Тестове завдання для Golden-Web Digital
 
+##### *Приклад розгорнутого додатку на сервері:  [http://0wlrlyk.pythonanywhere.com/uk/](http://0wlrlyk.pythonanywhere.com/uk/)*  
+
 #### Основні технічні вимоги:
 
 - Мова програмування: `Python`
